@@ -1,0 +1,16 @@
+
+export ALL_BRANCHES="
+"
+
+export BRANCHES="
+"
+
+export BRANCHES_TO_BE_DELETED="
+"
+
+export REVIEW_POST_BRANCHES="
+"
+
+
+#BRANCHES="$BRANCHES $ALL_BRANCHES $BRANCHES"
+

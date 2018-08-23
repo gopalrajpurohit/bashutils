@@ -1,0 +1,26 @@
+#!/bin/bash
+
+export FUTURE_BRANCHES="
+"
+
+## Format: child_branch:parent_branch
+export BRANCH_NAMES="
+"
+
+ROOT_BRANCHES="";
+for BRANCH_NAME in $BRANCH_NAMES
+do
+  ROOT_BRANCHES="${ROOT_BRANCHES} `echo $BRANCH_NAME | sed 's/:master//g' | grep -v ':'`"
+done
+
+export ROOT_BRANCHES;
+
+export CREATE_BRANCH_NAMES="
+"
+
+export OTHER_CREATE_BRANCH_NAMES="
+"
+
+export CREATED_BRANCH_NAMES="
+"
+
