@@ -1,7 +1,7 @@
 #!/bin/bash
 
 CURRENT_SCRIPT_NAME=$0
-CURRENT_SCRIPT_FULL_PATH==$(dirname "$0")
+CURRENT_SCRIPT_FULL_PATH=$(dirname "$0")
 
 BRANCH=$1
 
