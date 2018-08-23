@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ -z $1 ]; then
+  patch -p1  
+else
+  patch -p1 < $1
+fi
